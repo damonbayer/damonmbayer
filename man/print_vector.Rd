@@ -2,7 +2,7 @@
 % Please edit documentation in R/print_vector.R
 \name{print_vector}
 \alias{print_vector}
-\title{The length of a string (in characters).}
+\title{print_vector.}
 \usage{
 print_vector(x, oxford.comma = T)
 }
@@ -13,7 +13,7 @@ print_vector(x, oxford.comma = T)
 the input string formatted as in an english sentence
 }
 \description{
-The length of a string (in characters).
+print_vector.
 }
 \examples{
 print_vector(letters)

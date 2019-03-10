@@ -1,4 +1,4 @@
-#' The length of a string (in characters).
+#' print_vector.
 #'
 #' @param x input character vector
 #' @return the input string formatted as in an english sentence
