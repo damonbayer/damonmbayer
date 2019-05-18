@@ -4,7 +4,7 @@
 \alias{print_matrix}
 \title{print_matrix}
 \usage{
-print_matrix(x, digits = 2, mat.type = "b")
+print_matrix(x, digits = 2, mat.type = "b", include.colnames = T)
 }
 \arguments{
 \item{x}{a matrix}
@@ -18,4 +18,7 @@ LaTeX code for printed matrix
 }
 \description{
 print_matrix
+}
+\examples{
+print_matrix(matrix(runif(20), ncol = 4))
 }
