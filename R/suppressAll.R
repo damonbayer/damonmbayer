@@ -4,6 +4,6 @@
 #' @return the resul of expr
 #' @export
 suppressAll <- function(expr) {
-  capture.output(x <- expr, file = "/dev/null")
+  capture.output(x <- suppressWarnings(suppressMessages(expr)), file = "/dev/null")
   x
 }
